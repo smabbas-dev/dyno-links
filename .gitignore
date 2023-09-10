@@ -1,2 +1,54 @@
 # Virtual Environment
 .venv/
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+db.sqlite3
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore migration files (you may adjust this)
+*/migrations/
+*.sqlite3
+*.pyc
+*.pyo
+
+# Ignore sensitive configuration files (adjust as needed)
+.env
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore media and static files (adjust as needed)
+/media/
+/static/
+
+# Ignore secret key file
+*.secret_key
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore local settings
+local_settings.py
+
+# Ignore database settings (modify as needed)
+settings.ini
+
+# Ignore .DS_Store files (macOS specific)
+.DS_Store
+
+# Ignore pycache
+__pycache__/

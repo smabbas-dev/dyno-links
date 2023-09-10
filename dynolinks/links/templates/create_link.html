@@ -1,0 +1,12 @@
+<h2>Create a Dynamic Link</h2>
+<form method="post" action="{% url 'create_dynamic_link' %}">
+  {% csrf_token %}
+  <label for="original_url">Original URL:</label><br />
+  <input
+    type="url"
+    id="original_url"
+    name="original_url"
+    required
+  /><br /><br />
+  <input type="submit" value="Create Link" />
+</form>
