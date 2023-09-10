@@ -1,6 +1,5 @@
 # DynoLinks: Dynamic Links Management
 
-![DynoLinks Logo](path_to_logo.png) 
 
 DynoLinks is an open-source solution for generating and managing dynamic links. With DynoLinks, developers can seamlessly integrate deep linking, track referrals, and optimize user experience.
 
